@@ -374,7 +374,7 @@ top
   position: relative;
   height: 600px;
   width: 100%;
-  background: url(/img/mainvisual.png) transparent no-repeat top center/cover;
+  background: url(../img/mainvisual.png) transparent no-repeat top center/cover;
   -o-object-fit: cover;
      object-fit: cover;
 }
@@ -415,7 +415,7 @@ top
 }
 
 .swiper-button-prev {
-  background: transparent url(/img/arrow-prev.svg) no-repeat center center/contain;
+  background: transparent url(../img/arrow-prev.svg) no-repeat center center/contain;
   left: calc(50% - 600px);
 }
 
@@ -432,7 +432,7 @@ top
 }
 
 .swiper-button-next {
-  background: transparent url(/img/arrow-next.svg) no-repeat center center/contain;
+  background: transparent url(../img/arrow-next.svg) no-repeat center center/contain;
   right: calc(50% - 600px);
 }
 

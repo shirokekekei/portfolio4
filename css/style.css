@@ -294,7 +294,7 @@ drawer
   transform: translateY(-50%);
   width: 7px;
   height: 11px;
-  background: transparent url(./img/arrow-b.svg) no-repeat center center/contain;
+  background: transparent url(../img/arrow-b.svg) no-repeat center center/contain;
 }
 
 /************************

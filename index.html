@@ -1,0 +1,511 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <meta name="description" content="description" />
+  <!-- <link rel="stylesheet" href="./css/reset.css" /> -->
+  <link rel="stylesheet" href="./css/style.css" />
+  <link href="https://use.fontawesome.com/releases/v5.6.1/css/all.css" rel="stylesheet">
+  <link rel="stylesheet" href="css/swiper.min.css">
+  <!-- <link rel="stylesheet" href="css/slider.css"> -->
+  <link rel="stylesheet" href="css/animate.css">
+  
+  <!-- drawer.css -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/drawer/3.2.1/css/drawer.min.css">
+  <!-- jquery & iScroll -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/iScroll/5.1.3/iscroll.min.js"></script>
+  <!-- drawer.js -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/drawer/3.2.1/js/drawer.min.js"></script>
+  
+</head>
+<body>
+        <header>
+            <div class="header">
+                    <div class="header-line">
+                        <div class="header-left">
+                            <img src="./img/logo/logo.png" alt="">
+                        </div>    
+                        <div class="header-right">
+                            <ul>
+                                <li class="card header-nav"><a href="#card" class="hover-line">Card</a></li>
+                                <li class="news header-nav"><a href="#news" class="hover-line">News</a></li>
+                                <li class="price header-nav"><a href="#price" class="hover-line">Price</a></li>
+                                <li class="access header-nav"><a href="#access" class="hover-line">Access</a></li>
+                                <li class="contact header-nav"><a href="#contact" class="hover-line">Contact</a></li>
+                            </ul>
+                        </div>
+                        </div>
+                    </div>
+                    
+                   
+                    <button class="drawer-icon js-drawer for-drawer" type="button" data-target="for-drawer">
+                        <span class="drawer-bars">
+                            <span class="drawer-bar"></span>
+                            <span class="drawer-bar"></span>
+                            <span class="drawer-bar"></span>
+                        </span>
+                    </button><!-- /drawer-icon -->
+                    <div class="drawer-background for-drawer"></div>
+                    <div class="drawer-content for-drawer">
+                        <ul>
+                            <li><a href="#card">Card</a></li>
+                            <li><a href="#news">News</a></li>
+                            <li><a href="#price">Price</a></li>
+                            <li><a href="#access">Access</a></li>
+                            <li><a href="#contact">Contact</a></li>
+                        </ul>
+                    </div><!-- /drawer-content -->
+                </header>
+                    
+                    <!-- </header> -->
+                    
+            <section class="top" id="top">
+            <div class="swiper-container">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+                        <div class="top-box">
+                        <div class="top-h1">一番伝えたいことを書く</div>
+                        <div class="top-subtitle">リードリードリード</div>
+                        <button class="top-contact-button"><a href="#contact">お問い合わせ</a></button>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="top-box">
+                        <div class="top-h1">一番伝えたいことを書く2</div>
+                        <div class="top-subtitle">リードリードリード</div>
+                        <button class="top-contact-button" ><a href="#contact">お問い合わせ</a></button>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="top-box">
+                        <div class="top-h1">一番伝えたいことを書く3</div>
+                        <div class="top-subtitle">リードリードリード</div>
+                        <button class="top-contact-button"><a href="#contact">お問い合わせ</a></button>
+                    </div>
+                </div>
+            </div>
+            <!-- If we need pagination -->
+            <div class="swiper-pagination"></div>
+            <!-- If we need navigation buttons -->
+            <div class="swiper-button-prev"></div>
+            <div class="swiper-button-next"></div>
+            <!-- If we need scrollbar -->
+            <div class="swiper-scrollbar"></div>
+        </div>
+        </section>
+        
+        <section class="card-class" id="card">
+            <div class="tittle section-title">
+                <h2 class="card-name">Card</h2>
+                <div class="line"></div>
+            </div>
+            <div class="card-all-group">
+                <div class="card-img wow fadeInUp" data-wow-duration="1s" data-wow-delay=".5s">
+                    <img src="./img/card-img.svg" alt="" class="card-item">
+                    <p class="card-tittle">タイトルタイトル</p>
+                    <p class="text">テキストテキストテキストテキストテキストテキストテキストテキストテキスト</p>
+                </div>
+                <div class="card-img wow slideInDown">
+                    <img src="./img/card-img.svg" alt="" class="card-item">
+                    <p class="card-tittle">タイトルタイトル</p>
+                    <p class="text">テキストテキストテキストテキストテキストテキストテキストテキストテキスト</p>
+                </div>
+                <div class="card-img wow slideInRight">
+                    <img src="./img/card-img.svg" alt="" class="card-item">
+                    <p class="card-tittle">タイトルタイトル</p>
+                    <p class="text">テキストテキストテキストテキストテキストテキストテキストテキストテキスト</p>
+                </div>
+                <div class="card-img wow lightSpeedIn">
+                    <img src="./img/card-img.svg" alt="" class="card-item">
+                    <p class="card-tittle">タイトルタイトル</p>
+                    <p class="text">テキストテキストテキストテキストテキストテキストテキストテキストテキスト</p>
+                </div>
+                <div class="card-img wow flipInX">
+                    <img src="./img/card-img.svg" alt="" class="card-item">
+                    <p class="card-tittle">タイトルタイトル</p>
+                    <p class="text">テキストテキストテキストテキストテキストテキストテキストテキストテキスト</p>
+                </div>
+                <div class="card-img wow fadeInRightBig">
+                    <img src="./img/card-img.svg" alt="" class="card-item">
+                    <p class="card-tittle">タイトルタイトル</p>
+                    <p class="text">テキストテキストテキストテキストテキストテキストテキストテキストテキスト</p>
+                </div>
+            </div>
+        </section>
+
+        <section class="news-class" id="news">
+            <div class="news-tittle section-title">News</div>
+            <div class="news-group">
+                <div class="news-item">
+                    <div class="news-meta">
+                        <div class="news-day">2019-01-30</div>
+                        <label for="" class="label-type"><a href="">ラベル1</a></label>
+                    </div>
+                    <div class="news-text">
+                        <a href="">    
+                            ニュースニュースニュースニュースニュースニュースニュースニュース
+                        </a>
+                    </div>
+                </div>
+                <div class="news-item">
+                    <div class="news-meta">
+                        <div class="news-day">2019-01-30</div>
+                        <label for="" class="label-type label2"><a href="">ラベル2</a></label>
+                    </div>
+                    <div class="news-text">
+                        <a href="">
+                            ニュースニュースニュースニュースニュースニュースニュースニュース
+                        </a>
+                    </div>
+                </div>
+                <div class="news-item">
+                    <div class="news-meta">
+                        <div class="news-day">2019-01-30</div>
+                        <label for="" class="label-type label3" ><a href="">ラベル3</a></label>
+                    </div>
+                    <div class="news-text">
+                        <a href="">
+                            ニュースニュースニュースニュースニュースニュースニュースニュース
+                        </a>
+                    </div>
+                </div>
+                <div class="news-item">
+                    <div class="news-meta">
+                        <div class="news-day">2019-01-30</div>
+                        <label for="" class="label-type"><a href="">ラベル1</a></label>
+                    </div>
+                    <div class="news-text">
+                        <a href="">
+                            ニュースニュースニュースニュースニュースニュースニュースニュースニュースニュースニュースニュースニュースニュースニュースニュース
+                        </a>
+                    </div>
+                </div>
+                <div class="news-item">
+                    <div class="news-meta">
+                        <div class="news-day">2019-01-30</div>
+                        <label for="" class="label-type"><a href="">ラベル1</a></label>
+                    </div>
+                    <div class="news-text">
+                        <a href="">
+                            ニュースニュースニュースニュースニュースニュースニュースニュース
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="news-more"><a href="">more</a></div>
+        </section>
+
+        <section class="price-class section-title" id="price">
+            <div class="price-tittle">Price</div>
+                <div class="price-img-table">
+                    <div class="price-img">
+                        <img src="./img/thought-catalog-Xeo_7HSwYsA-unsplash.png" alt="" class="price-png">
+                    </div>
+                    <div class="table-group">
+                        <table class="table-def">
+                            <tr>
+                            <th></th>
+                            <th>column1</th>
+                            <th>column2</th>
+                        </tr>
+                        <tr>
+                            <th>row1</th>
+                            <td>100円</td>
+                            <td>100円</td>
+                        </tr>
+                        <tr>
+                            <th>row2</th>
+                            <td>6000円</td>
+                            <td>0円</td>
+                        </tr>
+                        <tr>
+                            <th>row3</th>
+                            <td class="table-default__multiline"><span class="row3-6000">6000円</span><br>※今だけ半額</td>
+                            <td>0円</td>
+                        </tr>
+                        <tr>
+                            <th>row4</th>
+                            <td>100円</td>
+                            <td>100円</td>
+                        </tr>
+                    </table>
+                    <div class="price-contact">※目安なので詳しくは<a href="#contact">お問い合わせ</a>ください。</div>
+                </div>
+            </div>
+                
+            </section>
+            
+            <section class="access-class" id="access">
+                <div class="access-tittle section-title">Access</div>
+                <div class="map-box">
+                    <div class="map" id="map">
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1620.1906162765467!2d139.70191725817543!3d35.69223507343893!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x60186092cf48325d%3A0x24ac346bd72018a3!2z57SA5LyK5ZyL5bGL5pu45bqXIOaWsOWuv-acrOW6lw!5e0!3m2!1sja!2sjp!4v1544423457095" width="800" height="400" frameborder="0" style="border:0" allowfullscreen></iframe>    
+                    </div>
+                </div>
+            <div class="information">
+                <div class="address-box">
+                    <div class="adress-info"><span class="address">住所</span>ほげほげほげのほげの場所</div>
+                </div>
+                <div class="access-info">
+                    <div class="station-access-info"><span class="station-access">アクセス</span>〇〇駅から右に５分</div>        
+                </div>
+            </div>
+            <button class="map-btn"><a href="#" >Googleマップで見る</a></button>
+        </section>
+
+        <section class="QA-class">
+            <div class="QA-body">
+
+                <div class="QA-tittle section-title">Q & A</div>
+                <div class="accordion-group">
+                    <div class="accordion-item">
+                    <div class="accordion-head">クリックするとどうなりますか？<span class="accordion-icon"></span></div>
+                    <div class="accordion-body">
+                      <div class="accordion-body-in">アコーディオンでここが開きます。アコーディオンでここが開きます。アコーディオンでここが開きます。アコーディオンでここが開きます。アコーディオンでここが開きます。アコーディオンでここが開きます。アコーディオンでここが開きます。アコーディオンでここが開きます。</div><!-- /.accordion__body-in -->
+                    </div>
+                </div>
+                <div class="accordion-item">
+                    <div class="accordion-head">クリックするとどうなりますか？<span class="accordion-icon"></span></div>
+                    <div class="accordion-body">
+                      <div class="accordion-body-in">アコーディオンでここが開きます。アコーディオンでここが開きます。アコーディオンでここが開きます。アコーディオンでここが開きます。アコーディオンでここが開きます。アコーディオンでここが開きます。アコーディオンでここが開きます。アコーディオンでここが開きます。</div><!-- /.accordion__body-in -->
+                    </div>
+                </div>
+                <div class="accordion-item">
+                    <div class="accordion-head">クリックするとどうなりますか？<span class="accordion-icon"></span></div>
+                    <div class="accordion-body">
+                      <div class="accordion-body-in">アコーディオンでここが開きます。アコーディオンでここが開きます。アコーディオンでここが開きます。アコーディオンでここが開きます。アコーディオンでここが開きます。アコーディオンでここが開きます。アコーディオンでここが開きます。アコーディオンでここが開きます。</div><!-- /.accordion__body-in -->
+                    </div>
+                </div>
+                <div class="accordion-item">
+                    <div class="accordion-head">クリックするとどうなりますか？<span class="accordion-icon"></span></div>
+                    <div class="accordion-body">
+                        <div class="accordion-body-in">アコーディオンでここが開きます。アコーディオンでここが開きます。アコーディオンでここが開きます。アコーディオンでここが開きます。アコーディオンでここが開きます。アコーディオンでここが開きます。アコーディオンでここが開きます。アコーディオンでここが開きます。</div><!-- /.accordion__body-in -->
+                    </div>
+                </div>
+            </div>
+        </div>
+        </section>
+
+        <section class="contact-class" id="contact">
+            <div class="contact-body">
+                <div class="contact-tittle section-title">Contact</div>
+                <div class="contact-form">
+                    <div class="form-name">
+                        <div class="name-text">お名前</div>
+                        <input class="name-input input" type="text" placeholder="山田太郎">
+                    </div>
+                    <div class="form-mail">
+                        <div class="mail-text">メールアドレス</div>
+                        <input class="mail-input input" type="email" placeholder="text@example.com">
+                    </div>
+                    <div class="form-list">
+                        <div class="list-text">お問い合わせ種別</div>
+                        <select class="list-input input">
+                            <option value="">test1</option>
+                            <option value="">test2</option>
+                            <option value="">test3</option>
+                        </select>
+                    </div>
+                    <div class="form-content">
+                        <div class="content-text">お問い合わせ内容</div>
+                        <textarea class="content-input" placeholder="お問い合わせを入力してください"></textarea>
+                    </div>
+                    <div class="radio">
+                        <label class="radio-text"><input class="radio-test" type="radio" name="radio-name" checked><span>ラジオ１</span></label>
+                        <label class="radio-text"><input class="radio-test" type="radio" name="radio-name" checked><span>ラジオ２</span></label>
+                        <label class="radio-text"><input class="radio-test" type="radio" name="radio-name" checked><span>ラジオ３</span></label>
+                    </div>
+                    <div class="check">
+                        <label><input class="check-test" type="checkbox" name="check-name"><span><a href="" class="check-url js-modal-open" data-target="for-modal">プライバシーポリシー</a>に合意する</span></label>
+                            
+                        <div class="for-modal">
+                            <!-- モーダルのコンテンツ -->
+                            <div class="modal-window-all">
+                                <a href="" class="js-modal-close modal-close-batu" data-target="for-modal"></a>
+                                    <div class="policy-tittle">プライバシーポリシー</div>
+                                    <div class="modal-content">
+                                            <div class="modal-head">ほにゃらら</div>
+                                            <div class="modal-text">ほにゃららほにゃららほにゃららほにゃららほにゃららほにゃららほにゃららほにゃららほにゃららほにゃららほにゃららほにゃららほにゃららほにゃららほにゃららほにゃららほにゃららほにゃららほにゃららほにゃららほにゃららほにゃららほにゃららほにゃららほにゃららほにゃららほにゃららほにゃららほにゃららほにゃららほにゃららほにゃららほにゃららほにゃららほにゃららほにゃららほにゃららほにゃらら。</div>
+                                            <div class="modal-head">ほにゃらら</div>
+                                            <div class="modal-text">
+                                                ほにゃららほにゃららほにゃららほにゃららほにゃららほにゃららほにゃららほにゃららほにゃららほにゃららほにゃららほにゃららほにゃららほにゃららほにゃららほにゃららほにゃららほにゃららほにゃららほにゃららほにゃららほにゃららほにゃららほにゃららほにゃららほにゃららほにゃららほにゃららほにゃららほにゃららほにゃららほにゃららほにゃららほにゃららほにゃららほにゃららほにゃららほにゃらら。
+                                            </div>
+                                            <div class="modal-head">ほにゃらら</div>
+                                            <div class="modal-text">
+                                                ほにゃららほにゃららほにゃららほにゃららほにゃららほにゃららほにゃららほにゃららほにゃららほにゃららほにゃららほにゃららほにゃららほにゃららほにゃららほにゃららほにゃららほにゃららほにゃららほにゃららほにゃららほにゃららほにゃららほにゃららほにゃららほにゃららほにゃららほにゃららほにゃららほにゃららほにゃららほにゃららほにゃららほにゃららほにゃららほにゃららほにゃららほにゃらら。
+                                            </div>
+                                    </div>
+                                    <a href="" class="js-modal-close" data-target="for-modal"><button class="modal-close">閉じる</button></a>
+                            </div>
+                            </div>
+
+                    </div>
+                    <button class="send-button"><a href="">送信する</a></button>
+                </div>
+            </div>
+        </section>
+        <footer>
+            <div class="footer-class">
+                <div class="footer-content3">
+                    <div class="footer-left">
+                        <div class="Company"><img src="./img/logo/logo.png" alt=""></div>
+                        <div class="cp-access">住所：ほげほげのほげほげ</div>
+                        <div class="cp-tel">TEL：0000-00-0000</div>
+                    </div>
+                    <div class="footer-center">
+                        <div class="footer-card fc"><a href="">Card</a></div>
+                        <div class="footer-news fc"><a href="">News</a></div>
+                        <div class="footer-price fc"><a href="">Price</a></div>
+                        <div class="footer-access fc"><a href="">Access</a></div>
+                        <div class="footer-contact fc"><a href="">Contact</a></div>
+                    </div>
+                    <div class="footer-right">
+                        <div class="twitter"><a href=""><img src="./img/twitter.svg" alt=""></a></div>
+                        <div class="facebook"><a href=""><img src="./img/facebook.svg" alt=""></a></div>
+                        <div class="instagram"><a href=""><img src="./img/instagram.svg" alt=""></a></div>
+                    </div>
+                </div>
+                <div class="copyright">Copyright © 2020 デイトラ All rights reserved.</div>
+                <div class="totop"><a href="#top"></a></div>
+            </div>
+        </footer>
+
+        <!--toTop-->
+        <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+        <script>
+            // スムーススクロールの処理を書く
+            // jQuery('.totop').click(function () {
+            jQuery(function() {
+            jQuery('a[href^="#"]').click(function() {
+            // .headerクラスがついた要素の高さを取得
+            let header = jQuery(".header").innerHeight(); 
+            let speed = 300;
+            let id = jQuery(this).attr("href");
+            let target = jQuery("#" == id ? "html" : id);
+            // トップからの距離からヘッダー分の高さを引く
+            let position = jQuery(target).offset().top - header;
+            // その分だけ移動すればヘッダーと被りません
+            jQuery('body,html').animate({
+            scrollTop: position
+              },
+              speed
+            );
+            return false;
+            });
+            
+            // スクロール検知
+            jQuery(window).on("scroll", function($) {
+                // トップから150px以上スクロールしたら
+                if (jQuery(this).scrollTop() > 150) {
+                    // is-showクラスをつける
+                    jQuery('.totop').show('is-show');
+                } else {
+                    // 100pxを下回ったらis-showクラスを削除
+                    jQuery('.totop').hide('is-show');
+                }
+            });
+        });
+         
+        jQuery('.header-right ul li a').click(function() {
+            jQuery('.header-right ul li a').removeClass( 'is-active' );
+            jQuery(this).addClass( 'is-active' );
+            return false;
+        });
+        
+        jQuery('.accordion-head').click(function() {
+            jQuery(this).next().slideToggle();
+            jQuery(this).children('.accordion-icon').toggleClass( 'is-open' );
+        });
+
+        // モーダルを開く
+        jQuery('.js-modal-open').click(function(e) {
+        e.preventDefault();
+        //data-以下が「target」になってる属性の値（for-modal）を取得
+        let target = jQuery(this).data("target");
+        //targetの値と同じクラス名を持った要素にis-showを追加
+        jQuery('.' + target).addClass( 'is-show' );
+        return false;
+        });
+        // モダールを閉じる
+        jQuery('.js-modal-close').click(function(e) {
+        e.preventDefault();
+        //data-以下が「target」になってる属性の値（for-modal）を取得
+        let target = jQuery(this).data("target");
+        //targetの値と同じクラス名を持った要素にis-showを追加
+        jQuery('.' + target).removeClass( 'is-show' );
+        return false;
+        });
+
+
+        </script>
+
+        <!-- <script src="./js/swiper.min.js"></script> -->
+        <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+	<script>
+		// スライダー
+		var mySwiper = new Swiper('.swiper-container', {
+			navigation: {
+				nextEl: '.swiper-button-next',
+				prevEl: '.swiper-button-prev',
+			},
+			loop: true,
+			pagination: {
+				el: '.swiper-pagination',
+				type: 'bullets',
+				clickable: true,
+			}
+		});
+    </script>
+    <!-- wow.min.jsを読み込んでから、初期設定しておく -->
+  <script src="js/wow.min.js"></script>
+  <script>
+    new WOW().init();
+  </script>
+
+<script>
+    // ドロワー
+    jQuery(".js-drawer").on("click", function(e) {
+        e.preventDefault();
+        let targetClass = jQuery(this).attr("data-target");
+        jQuery("." + targetClass).toggleClass("is-checked");
+        return false;
+    });
+</script>
+
+<!-- ドロワーメニューの利用宣言
+<script>
+    $(document).ready(function() {
+    $('.drawer').drawer();
+  });
+  </script> -->
+
+<!-- <script>
+    $(function() {
+     $('.navbar_toggle').on('click', function () {
+      $(this).toggleClass('open');
+      $('.menu').toggleClass('open');
+     });
+    });
+    </script> -->
+
+</body>
+    </html>
+
+    <!-- <script>
+        //     function initMap() {
+        //         var latlng = new google.maps.LatLng( 34.808502, 135.639683 );//中心の緯度, 経度
+        //         var map = new google.maps.Map(document.getElementById('map'), {
+        //           zoom: 14,//ズームの調整
+        //           center: latlng//上で設定した中心
+        //         });
+        //         var marker = new google.maps.Marker({
+        //           position: latlng,
+        //           map: map
+        //         });
+        //       }
+        // </script>
+        // <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDyN-MmTcvqXfp3uXuhNGAqFLq_LqLhtsA&callback=initMap">
+        </script> -->
